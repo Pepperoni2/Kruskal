@@ -28,8 +28,10 @@ public class CityNetwork : Graph
 
         if( v1 == null || v2 == null) return;
 
+        // Generate unique ID
+        uint newId = (uint)_edges.Count;
         // Instantiate TrenchRoute using the two vertices
-        TrenchRoute route = new(0, v1, v2, distance);
+        TrenchRoute route = new(newId, v1, v2, distance);
 
         // Add TrenchRoute to the edge list
         AddEdge(route);
@@ -40,7 +42,8 @@ public class CityNetwork : Graph
     {
         // Cast all the _edges to TrenchRoute
         List<TrenchRoute> trenchRoutes = _edges.Cast<TrenchRoute>().ToList();
-
+        // Sort the new list
+        trenchRoutes.Sort();
         // create a Dictionary<string, string> for storing the building names
         var parent = _vertices.ToDictionary(v => v.Name, v => v.Name);
 
