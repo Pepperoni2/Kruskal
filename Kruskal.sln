@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureLibrary", "DataStructureLibrary\DataStructureLibrary.csproj", "{90AAA11D-8E9C-9EF8-556A-3EAFE2DBB764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroNetApp", "MetroNetApp\MetroNetApp.csproj", "{F61D87E4-0ED7-8151-0D9B-A23B02A67EC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90AAA11D-8E9C-9EF8-556A-3EAFE2DBB764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AAA11D-8E9C-9EF8-556A-3EAFE2DBB764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AAA11D-8E9C-9EF8-556A-3EAFE2DBB764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AAA11D-8E9C-9EF8-556A-3EAFE2DBB764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61D87E4-0ED7-8151-0D9B-A23B02A67EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61D87E4-0ED7-8151-0D9B-A23B02A67EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61D87E4-0ED7-8151-0D9B-A23B02A67EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61D87E4-0ED7-8151-0D9B-A23B02A67EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FFE78E9-669F-48D4-AD6E-C239F01A7B90}
+	EndGlobalSection
+EndGlobal
