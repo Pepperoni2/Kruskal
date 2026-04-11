@@ -5,8 +5,9 @@ This project implements **Kruskal’s Minimum Spanning Tree (MST) Algorithm** to
 ## Built With
 * **Language:** C#
 * **Framework:** .NET 10.0
-* **Libraries:** * **DataStructureLibrary:** A custom-built library providing core Graph, Vertex, and Edge data structures.
-    * **Spectre.Console:** Used for advanced terminal styling, tables, and colorized output.
+* **Libraries:** 
+  * **DataStructureLibrary:** A custom-built library providing core Graph, Vertex, and Edge data structures.
+  * **Spectre.Console:** Used for advanced terminal styling, tables, and colorized output.
 
 ## Getting Started 
 
