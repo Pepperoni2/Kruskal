@@ -1,0 +1,8 @@
+@startuml
+class CityNetwork {
+    + AddBuilding(name:string) : Vertex
+    + AddTrenchRoute(buildingA:string, buildingB:string, distance:float) : void
+    + CalculateOptimalNetwork() : List<TrenchRoute>
+}
+Graph <|-- CityNetwork
+@enduml

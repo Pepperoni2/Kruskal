@@ -1,0 +1,10 @@
+@startuml
+class TrenchRoute {
+    + Distance : float
+    + CompareTo(other:TrenchRoute?) : int
+}
+class "IComparable`1"<T> {
+}
+Edge <|-- TrenchRoute
+"IComparable`1" "<TrenchRoute>" <|-- TrenchRoute
+@enduml

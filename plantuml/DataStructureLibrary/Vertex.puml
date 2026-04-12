@@ -1,0 +1,7 @@
+@startuml
+class Vertex {
+    + Id : uint
+    + Name : string = "UnknownName"
+    + Vertex(id:uint, name:string)
+}
+@enduml

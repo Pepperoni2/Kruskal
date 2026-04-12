@@ -1,0 +1,8 @@
+@startuml
+class Edge {
+    + Id : uint
+    + Edge(id:uint, source:Vertex, target:Vertex)
+}
+Edge --> "Source" Vertex
+Edge --> "Target" Vertex
+@enduml
