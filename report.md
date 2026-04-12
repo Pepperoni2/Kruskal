@@ -1,12 +1,12 @@
 # Report
 
-**Course:** C# Development SS20?? (4 ECTS, 3 SWS)
+**Course:** C# Development SS2026 (4 ECTS, 3 SWS)
 
-**Student ID:** CC
+**Student ID:** CC241008
 
-**BCC Group:**
+**BCC Group:** B
 
-**Name:**
+**Name:** Florian Golubic
 
 ## Methodology: 
 The goal of the project was to minimize the cost of fiber optic installation by finding the Minimum Spanning Tree (MST) of a city network. My methodology followed these core steps:
