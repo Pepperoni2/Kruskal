@@ -49,7 +49,12 @@ public class CityNetwork : Graph
 
         string Find(string node)
         {
+            // BASE CASE: If building is its own parent, it is the root of its network set
             if(parent[node] == node) return node;
+
+            // RECURSION + PATH COMPRESSION:
+            // Find the absolute root network
+            // Assign root to parent[node] => flatten the structure to only need one step for finding the root
             return parent[node] = Find(parent[node]);
         }
 
